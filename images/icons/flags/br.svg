@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="22" viewBox="0 0 33 22">
+  <g id="br" transform="translate(0 -85.331)">
+    <rect id="Rectangle_242" data-name="Rectangle 242" width="33" height="22" transform="translate(0 85.331)" fill="#6da544"/>
+    <path id="Path_481" data-name="Path 481" d="M136.308,161.678l8.308,6.044-8.308,6.044L128,167.722Z" transform="translate(-119.808 -71.392)" fill="#ffda44"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="3.498" cy="3.498" r="3.498" transform="translate(13.002 92.833)" fill="#f0f0f0"/>
+    <g id="Group_360" data-name="Group 360" transform="translate(13.003 92.833)">
+      <path id="Path_482" data-name="Path 482" d="M203.87,252.626a5.884,5.884,0,0,0-1.748.264,3.5,3.5,0,0,0,6.361,1.961A5.894,5.894,0,0,0,203.87,252.626Z" transform="translate(-202.122 -249.347)" fill="#0052b4"/>
+      <path id="Path_483" data-name="Path 483" d="M213.121,206.267a3.5,3.5,0,0,0-6.648-2.051,7.211,7.211,0,0,1,6.648,2.051Z" transform="translate(-206.191 -202.099)" fill="#0052b4"/>
+    </g>
+  </g>
+</svg>

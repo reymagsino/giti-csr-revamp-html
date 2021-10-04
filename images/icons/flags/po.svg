@@ -1,0 +1,7 @@
+<svg id="po" xmlns="http://www.w3.org/2000/svg" width="33" height="22" viewBox="0 0 33 22">
+  <path id="Path_527" data-name="Path 527" d="M12,27.751H45v22H12Z" transform="translate(-12 -27.751)" fill="#6fa44a"/>
+  <path id="Path_528" data-name="Path 528" d="M45,27.751H68.073v22H45Z" transform="translate(-35.073 -27.751)" fill="#d60a2e"/>
+  <ellipse id="Ellipse_43" data-name="Ellipse 43" cx="4.813" cy="4.813" rx="4.813" ry="4.813" transform="translate(5.519 6.187)" fill="#fed953"/>
+  <path id="Path_529" data-name="Path 529" d="M42.286,60.637a2.471,2.471,0,0,1-4.1,0V56.8h4.1Z" transform="translate(-29.812 -47.962)" fill="#f0f0f0"/>
+  <path id="Path_530" data-name="Path 530" d="M39.013,61.031A2.925,2.925,0,0,1,36.519,59.7a.527.527,0,0,1-.082-.282V55.576a.526.526,0,0,1,.526-.526h4.1a.526.526,0,0,1,.526.526v3.837a.527.527,0,0,1-.082.282A2.925,2.925,0,0,1,39.013,61.031ZM37.49,59.249a1.955,1.955,0,0,0,3.046,0V56.1H37.49Z" transform="translate(-28.603 -46.738)" fill="#d60a2e"/>
+</svg>

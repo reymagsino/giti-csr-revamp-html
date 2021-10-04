@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.96" height="31" viewBox="0 0 35.96 31">
+  <g id="play-multimedia-interface-button" transform="translate(0 -2)">
+    <g id="Group_366" data-name="Group 366" transform="translate(0 2)">
+      <path id="Path_439" data-name="Path 439" d="M22.1,14.735,11.73,8.512c-1.169-.7-2.127-.16-2.127,1.2V22.3c0,1.364.956,1.906,2.127,1.2L22.1,17.287A1.367,1.367,0,0,0,22.1,14.735Z" transform="translate(2.305 -0.511)" fill="#fccf00"/>
+      <path id="Path_440" data-name="Path 440" d="M31.582,2H4.378A4.171,4.171,0,0,0,0,5.913V29.087A4.171,4.171,0,0,0,4.378,33h27.2a4.171,4.171,0,0,0,4.378-3.913V5.913A4.171,4.171,0,0,0,31.582,2Zm1.9,27.087c0,.777-.869,1.433-1.9,1.433H4.378c-1.029,0-1.9-.656-1.9-1.433V5.913c0-.777.869-1.433,1.9-1.433h27.2c1.029,0,1.9.656,1.9,1.433Z" transform="translate(0 -2)" fill="#fccf00"/>
+    </g>
+  </g>
+</svg>
