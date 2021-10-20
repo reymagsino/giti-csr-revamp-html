@@ -1,0 +1,138 @@
+/* General */
+.page-sec {
+    margin-bottom: 2rem;
+}
+
+section.main-content-canvas {
+    letter-spacing: initial;
+}
+
+/* Projects and Partnerships */
+
+    /* BANNER */
+    .banner-canvas {
+        text-align: center;
+        color: white;
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+        background: url(../images/csr/projects-partnerships/banner-earth.svg) #1b1b1b no-repeat center;
+        background-size: 45rem;
+        background-position-y: -3rem;
+    }
+
+    .banner-canvas p.sub {
+        margin: 1rem auto 5rem auto;
+        width: 55%;
+    }
+
+    .banner-canvas .title {
+        color: #76c208;
+    }
+
+    /* CAROUSEL BIG */
+    .carousel-wrapper {
+        margin: 5rem 0;
+        text-align: center;
+    }
+
+    .carousel-wrapper p.head, .ungc-wrapper p.head {
+        font-family: 'Heebo', sans-serif;
+        font-size: 24px;
+    }
+
+    .carousel-wrapper p.head span,.ungc-wrapper p.head span {
+        font-weight: 500;
+        color: #76c208;
+    }
+
+    .partners-carousel .partner-item.center {
+        background: #76c208;
+        transition: .5s;
+    }
+
+    .partners-carousel .partner-item.sides {
+        background: #324c0dad;
+        margin-top: 5rem;
+        transition: .5s;
+    }
+
+    /* UNGC */
+    .ungc-wrapper p {
+        line-height: 1.5rem;
+    }
+
+    .ungc-wrapper p.head span:after {
+        display: block;
+        content: "\00a0 ";
+        width: 10rem;
+        border-top: 3px solid;
+        margin-top: 1rem;
+    }
+
+    /* PRINCIPLES */
+    .principles-wrapper p.head {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .principles-wrapper p.head span {
+        color: #76c208;
+    }
+
+    .principles-wrapper .prin-item-wrapper {
+        margin-bottom: 1.5rem;
+    }
+
+    .principles-wrapper .prin-item-wrapper .img-wrapper {
+        border: 3px solid #76c208;
+        width: 5rem;
+    }
+
+    .principles-wrapper .prin-item-wrapper .img-wrapper img {
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem;
+    }
+
+    .principles-wrapper .prin-item-wrapper .text-wrapper {
+        margin-left: .5rem;
+        line-height: 1.5rem;
+    }
+
+    .principles-wrapper .prin-item-wrapper .text-wrapper p {
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: initial;
+    }
+
+    .principles-wrapper .prin-item-wrapper .text-wrapper ul li {
+        margin-bottom: 1rem;
+    }
+
+    .principles-wrapper .prin-item-wrapper .text-wrapper ul li span {
+        font-weight: bold;
+        letter-spacing: initial;
+    }
+
+    /* DETAILS */
+    .details-wrapper {
+        line-height: 1.5rem;
+    }
+
+    .details-wrapper span {
+        display: block;
+    }
+
+    .details-wrapper span a {
+        font-weight: bold;
+    }
+
+    /* MAIN PARTNERS CAROUSEL */
+    .partners-carousel .partner-item {
+        background: #dddddd;
+        padding: 10rem;
+    }
+
+    .partners-carousel .partner-item.even {
+        background: green;
+    }
