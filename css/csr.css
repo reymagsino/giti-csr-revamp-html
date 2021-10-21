@@ -1,6 +1,10 @@
 /* General */
 .page-sec {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.swipe-up {
+    transform: translateY(-1rem);
 }
 
 section.main-content-canvas {
@@ -13,8 +17,7 @@ section.main-content-canvas {
     .banner-canvas {
         text-align: center;
         color: white;
-        padding-top: 7rem;
-        padding-bottom: 4rem;
+        padding: 7rem 0;
         background: url(../images/csr/projects-partnerships/banner-earth.svg) #1b1b1b no-repeat center;
         background-size: 45rem;
         background-position-y: -3rem;
@@ -29,10 +32,15 @@ section.main-content-canvas {
         color: #76c208;
     }
 
+    .partners-logo-carousel .owl-item img {
+        height: 45px;
+    }
+
     /* CAROUSEL BIG */
     .carousel-wrapper {
-        margin: 5rem 0;
+        margin-top: 5rem;
         text-align: center;
+        height: 34rem;
     }
 
     .carousel-wrapper p.head, .ungc-wrapper p.head {
@@ -48,12 +56,120 @@ section.main-content-canvas {
     .partners-carousel .partner-item.center {
         background: #76c208;
         transition: .5s;
+        height: 17rem;
     }
 
     .partners-carousel .partner-item.sides {
         background: #324c0dad;
         margin-top: 5rem;
         transition: .5s;
+    }
+
+    .partners-carousel .owl-nav button {
+        background: white !important;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 5rem !important;
+        box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 30%);
+        -webkit-box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 30%);
+        -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.3);
+        transition: 0.5s;
+    }
+
+    .partners-carousel .owl-nav button:hover {
+        filter: brightness(1.5);
+    }
+
+    .partners-carousel .owl-nav button img {
+        filter: invert(41%) sepia(15%) saturate(0%) hue-rotate(146deg) brightness(98%) contrast(85%);
+    }
+
+    .partners-carousel .owl-nav {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 7rem;
+        z-index: 20;
+    }
+
+    .carousel-wrapper .partners-carousel {
+        margin: 5rem 0;
+        position: relative;
+        height: 1rem;
+    }
+
+    .partners-carousel .partner-item.center:hover .content-wrapper {
+        padding: 1rem 0;
+        top: 30%;
+    }
+
+    .partners-carousel .partner-item:hover {
+        cursor: pointer;
+    }
+
+    .partners-carousel .partner-item:hover .content-wrapper {
+        top: 30%;
+        background: white;
+        padding: 1rem 0;
+        transition: .5s;
+    }
+
+    .partners-carousel .partner-item {
+        overflow: hidden;
+        position: relative;
+        background: #dddddd;
+        height: 18rem;
+    }
+
+    .partners-carousel .partner-item.center .content-wrapper {
+        top: 35%;
+    }
+
+    .partners-carousel .partner-item .content-wrapper {
+        position: absolute;
+        top: 35%;
+        z-index: 2;
+        width: 100%;
+        transition: .5s;
+    }
+
+    .partners-carousel .partner-item .content-wrapper img {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .partners-carousel .partner-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .partners-carousel .partner-item .overlay {
+        background-color: rgb(255 255 255 / 60%);
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    .partners-carousel .partner-item:hover .overlay {
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    .partners-carousel .partner-item .border-bottom-green {
+        background-color: rgb(118 194 8);
+        display: block;
+        height: .5rem;
+        bottom: -1rem;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
     }
 
     /* UNGC */
@@ -125,14 +241,4 @@ section.main-content-canvas {
 
     .details-wrapper span a {
         font-weight: bold;
-    }
-
-    /* MAIN PARTNERS CAROUSEL */
-    .partners-carousel .partner-item {
-        background: #dddddd;
-        padding: 10rem;
-    }
-
-    .partners-carousel .partner-item.even {
-        background: green;
     }

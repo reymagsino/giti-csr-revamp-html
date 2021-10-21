@@ -4,16 +4,20 @@ $( document ).ready(function() {
     $('.partners-logo-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        dots: false,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
-                items:3
+                items:2
             },
             600:{
                 items:3
             },
             1000:{
-                items:5
+                items:6
             }
         }
     });
@@ -23,16 +27,20 @@ $( document ).ready(function() {
         center: true,
         items:5,
         loop:true,
-        margin:10,
-        // autoplay:true,
-        // autoplayTimeout:1000,
-        // autoplayHoverPause:true,
+        margin:50,
+        dots: false,
+        nav:true,
+        navText : ['<img src="images/icons/general/left-arrow-icon.svg">','<img src="images/icons/general/right-arrow-icon.svg">'],
+        mouseDrag:false,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
-                items:3
+                items:1
             },
             600:{
-                items:3
+                items:1
             },
             1000:{
                 items:4
@@ -40,6 +48,7 @@ $( document ).ready(function() {
         }
     });
 
+    // Projects Main Carousel Effect
     $('.partners-carousel').on('initialized.owl.carousel translate.owl.carousel', function(e){
         idx = e.item.index;
         $('.partner-item.center').removeClass('center');
@@ -48,4 +57,14 @@ $( document ).ready(function() {
         $('.partner-item').eq(idx-1).addClass('sides');
         $('.partner-item').eq(idx+1).addClass('sides');
     });
+
+    // Border Bottom Green Swipe Up
+    $(".partners-carousel .partner-item").hover(
+        function () {
+            $(this).find('.border-bottom-green').addClass("swipe-up");
+        },
+        function () {
+            $(this).find('.border-bottom-green').removeClass("swipe-up");
+        }
+    );
 });
