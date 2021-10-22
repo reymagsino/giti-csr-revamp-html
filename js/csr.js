@@ -31,7 +31,7 @@ $( document ).ready(function() {
         dots: false,
         nav:true,
         navText : ['<img src="images/icons/general/left-arrow-icon.svg">','<img src="images/icons/general/right-arrow-icon.svg">'],
-        mouseDrag:false,
+        mouseDrag:true,
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
