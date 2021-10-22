@@ -135,6 +135,33 @@
 }
 
 @media (max-width: 767px) {
+  /* General */
+  .main-content-canvas {
+      text-align: center;
+  }
+  
+  /* CSR */
+  .csr-main-canvas .principles-wrapper .prin-item-wrapper {
+    display: block;
+  }
+
+  .csr-main-canvas .principles-wrapper .prin-item-wrapper .img-wrapper {
+    width: 5.5rem;
+    margin: auto auto 2rem;
+  }
+
+  .csr-main-canvas .banner-canvas p.sub {
+    width: 100%;
+  }
+  
+  .csr-main-canvas .ungc-wrapper .head span:after {
+    margin: 1rem auto -2rem;
+  }
+
+  .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper {
+    margin: auto auto 3rem;
+  }
+
   /*Home Main Slider*/
   .home-main-slider h1.slider-heading {font-size: 3rem;}
   .home-main-slider p.slider-excerpt {min-width: 400px!important;}
