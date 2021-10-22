@@ -189,13 +189,8 @@ h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
     }
 
     /* PRINCIPLES */
-    .csr-main-canvas .principles-wrapper p.head {
-        font-size: 17px;
-        font-weight: bold;
-    }
-
-    .csr-main-canvas .principles-wrapper p.head span {
-        color: #76c208;
+    .csr-main-canvas .principles-wrapper {
+        margin-bottom: 1rem;
     }
 
     .csr-main-canvas .principles-wrapper .prin-item-wrapper {

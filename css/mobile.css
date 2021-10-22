@@ -71,6 +71,19 @@
 }
 
 @media (max-width: 1199px) {
+  /* CSR */
+  .csr-main-canvas .partners-carousel .partner-item {
+    height: 13rem;
+  }
+
+  .csr-main-canvas .partners-carousel .partner-item.center {
+      height: 12rem;
+  }
+
+  .csr-main-canvas .carousel-wrapper {
+      height: 30rem;
+  }
+
   /*Top Header*/
   .top-header-canvas {display: none;}
 
@@ -141,6 +154,10 @@
   }
   
   /* CSR */
+  .csr-main-canvas .carousel-wrapper {
+      height: 34rem;
+  }
+
   .csr-main-canvas .principles-wrapper .prin-item-wrapper {
     display: block;
   }
@@ -160,6 +177,14 @@
 
   .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper {
     margin: auto auto 3rem;
+  }
+
+  .csr-main-canvas .partners-carousel .partner-item {
+    height: 17rem;
+  }
+
+  .csr-main-canvas .partners-carousel .partner-item.center {
+      height: 17rem;
   }
 
   /*Home Main Slider*/

@@ -39,8 +39,17 @@ $( document ).ready(function() {
             0:{
                 items:1
             },
-            600:{
+            500:{
                 items:1
+            },
+            600:{
+                items:2
+            },
+            700:{
+                items:2
+            },
+            800:{
+                items:2
             },
             1000:{
                 items:4
