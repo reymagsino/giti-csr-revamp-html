@@ -18,6 +18,10 @@ h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
     line-height: 2.5rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Heebo', sans-serif;
+}
+
 .head span {
     color: #76c208;
 }
@@ -40,6 +44,7 @@ h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
     }
 
     .csr-main-canvas .banner-canvas .title {
+        font-family: 'Rajdhani', sans-serif;
         color: #76c208;
     }
 
@@ -51,7 +56,7 @@ h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
     .csr-main-canvas .carousel-wrapper {
         margin-top: 5rem;
         text-align: center;
-        height: 34rem;
+        height: 36rem;
     }
 
     .csr-main-canvas .partners-carousel .partner-item.center {
@@ -191,6 +196,11 @@ h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
     /* PRINCIPLES */
     .csr-main-canvas .principles-wrapper {
         margin-bottom: 1rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper h5 {
+        line-height: 5rem;
+        margin: 0;
     }
 
     .csr-main-canvas .principles-wrapper .prin-item-wrapper {
