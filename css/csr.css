@@ -1,4 +1,8 @@
 /* General */
+*:focus {
+    outline: 0 !important;
+}
+
 .page-sec {
     margin-bottom: 3rem;
 }
@@ -250,4 +254,109 @@ h1, h2, h3, h4, h5, h6 {
 
     .csr-main-canvas .details-wrapper span a {
         font-weight: bold;
+    }
+
+/* Missions */
+
+    /* BANNER */
+    .csr-main-canvas .missions-canvas .banner-canvas {
+        text-align: left;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+        margin: 2rem 0;
+        width: 55%;
+    }
+
+    /* CEO */
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+        background: lightblue;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+        padding: 5rem 0;
+        border-bottom: 3px solid #76c208;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper {
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper .head {
+        margin-bottom: 0;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper img {
+        padding: 3rem 0;
+    }
+
+    /* SDG ITEMS */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item {
+        position: relative;
+        background: #f4f4f4;
+        width: 15.5%;
+        height: 15rem;
+        padding: 1rem;
+        margin-bottom: 1.5%;
+    }
+    
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item .sdg-item-content-wrapper {
+        position: absolute;
+        display: block;
+        bottom: 1rem;
+        left: 50%;
+    }
+
+    /* ACCORDION */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button, .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+        background: #f4f4f4;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        border-top: 5px solid #fccf00;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+        margin-bottom: 2.5rem;
+        border: none;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button h5 {
+        margin-bottom: -8.5px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal span.num {
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+        text-align: right;
+        width: 10rem;
+        margin-right: 1rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button:not(.collapsed) {
+        color: inherit;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item #sdg-1 .goal {
+        color: #e5243b;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body {
+        display: flex;
     }
