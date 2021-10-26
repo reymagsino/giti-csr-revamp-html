@@ -8552,13 +8552,24 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
 .csr-sub-canvas .csr-sub .banner .intro h1 span {color: #76C208;}
 .csr-sub-canvas .csr-sub .banner .intro img.banner-intro-sep {display: inline-block; margin-bottom: 25px;}
 .csr-sub-canvas .csr-sub .banner .intro p {color: #fff; margin: 0;}
-.csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/green-production/green-production-banner.png) center right 30px no-repeat; background-size: 500px;}
+.csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/banners/green-production-banner.png) center right 30px no-repeat; background-size: 500px;}
+.csr-sub-canvas .csr-sub .employee-health-banner {background: #111 url(../images/csr/banners/employee-health-banner.png) center right 30px no-repeat; background-size: 500px;}
+.csr-sub-canvas .csr-sub .education-banner {background: #111 url(../images/csr/banners/education-banner.png) center right 30px no-repeat; background-size: 500px;}
+.csr-sub-canvas .csr-sub .environmental-protection-banner {background: #111 url(../images/csr/banners/environmental-protection-banner.png) center right 30px no-repeat; background-size: 500px;}
 .csr-sub-canvas .csr-sub .summary h2 {padding: 20px 0 0 0; font-weight: 700!important; font-size: 2.5rem!important; color: #76C208; margin: 0;}
 .csr-sub-canvas .csr-sub .summary .sub-head-tagline {display: inline-block; color: #aaa; font-size: 1.2rem;}
 .csr-sub-canvas .csr-sub .summary ul.sdg-icons {display: block; padding: 30px 0; text-align: center;}
 .csr-sub-canvas .csr-sub .summary ul.sdg-icons li {display: inline-block; margin: 7px 5px;}
 .csr-sub-canvas .csr-sub .summary ul.sdg-icons li img {}
 .csr-sub-canvas .csr-sub .summary p {}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas {height: 450px;}
+.csr-sub-canvas .csr-sub .world-class-manufacturing {background: #f1f1f1 url(../images/csr/employee-health/world-class-production-bg.jpg) center center no-repeat; background-size: cover}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .container {height: 100%;}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner {height: 100%; display: flex; justify-content: center; align-items: center; text-align: center;}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner .intro {}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner .intro img {margin-bottom: 10px;}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner .intro h2 {color: #fff; margin: 0;}
+.csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner .intro h2 span {color: #76C208;}
 .csr-sub-canvas .csr-sub .gen-sec {padding:  40px 0; text-align: center;}
 .csr-sub-canvas .csr-sub .gen-sec.gray-bg {background: #f4f4f4;}
 .csr-sub-canvas .csr-sub .gen-sec h2 {font-size: 2rem; font-weight: 600;}
@@ -8568,11 +8579,26 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
 .csr-sub-canvas .csr-sub .gen-sec h3 span {color: #76C208;}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box {width: 900px; margin: 0 auto; display: flex; align-items: center;}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image {position: relative;}
-.csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image .hex-caption {display: inline-block;position: absolute;bottom: 70px;left: 30px;padding: 20px 30px;background: #76C208;border-top-left-radius: 30px;border-bottom-right-radius: 30px;font-weight: 500;}
+.csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image .hex-caption {display: inline-block;position: absolute;bottom: 70px;left: 30px;padding: 20px 30px;background: #76C208;border-top-left-radius: 30px;border-bottom-right-radius: 30px;font-weight: 500;text-align: left;max-width: 250px;}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image img {display: inline-block;}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-info {text-align: left; padding-left: 50px;}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-info p {}
 .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-info p:last-child {margin: 0;}
+.csr-sub-canvas .csr-sub .gen-sec .hex-right {flex-direction: row-reverse; align-items: center;}
+.csr-sub-canvas .csr-sub .gen-sec .hex-right .hex-image {}
+.csr-sub-canvas .csr-sub .gen-sec .hex-right .hex-info {text-align: right; padding: 0 50px 0 0;}
+.csr-sub-canvas .csr-sub .gen-sec .hex-right .hex-info p {}
+.csr-sub-canvas .csr-sub .gen-sec .leaf-boxes {display: flex; flex-wrap: wrap;}
+.csr-sub-canvas .csr-sub .gen-sec .leaf-boxes .leaf-box {width: calc(50% - 20px); margin: 10px; text-align: left; padding: 30px; border-top-left-radius: 50px; border-bottom-right-radius: 50px; background: rgb(118,194,8); background: linear-gradient(277deg, rgba(118,194,8,1) 0%, rgba(76,159,56,1) 100%);}
+.csr-sub-canvas .csr-sub .gen-sec .leaf-boxes .leaf-box h5 {color: #fff; font-size: 1.4rem; margin-bottom: 5px;}
+.csr-sub-canvas .csr-sub .gen-sec .leaf-boxes .leaf-box p {color: #fff; margin: 0;}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas {}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel {}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide {position: relative;}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide .intro {position: absolute;bottom: 20px;right: 20px;text-align: left;width: 700px;background: rgba(118,194,8,0.8);padding: 20px 40px;border-top-left-radius: 50px;border-bottom-right-radius: 50px;}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide .intro h5 {color: #fff;font-size: 1.1rem;margin-bottom: 5px;}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide .intro p {color: #fff;font-size: 0.8rem;margin: 0;}
+.csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide img {}
 /* Green and Efficient Production*/
 .csr-sub-canvas .csr-sub .circular-economy-canvas {}
 .csr-sub-canvas .csr-sub .circular-economy-canvas .circular-economy {padding: 30px 0; margin: 30px 0; background: url(../images/csr/green-production/circular-economy-background.jpg) center center no-repeat; background-size: cover;}
@@ -8593,21 +8619,68 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
 .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-body .results-graph .graph img {}
 .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-body .results-data {text-align: center;}
 .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-body .results-data img {display: inline-block; margin: 0 10px;}
-
+/*Focus on Education*/
+.csr-sub-canvas .csr-sub .innovation-canvas {position: relative; padding: 60px 0; background: rgb(118,194,8); background: linear-gradient(180deg, rgba(118,194,8,1) 0%, rgba(76,159,56,1) 100%);}
+.csr-sub-canvas .csr-sub .innovation-canvas img.leaves-asset {position: absolute; z-index: 50; bottom: 20px; left: -40px;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation {position: relative; z-index: 60;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation h2 {text-align: center; color: #111; margin-bottom: 30px;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation h2 span {color: #fff;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro {display: flex; align-items: center; flex-direction: row-reverse;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro .intro-text {padding-right: 60px;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro .intro-text p {font-size: 1rem;}
+.csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro img {}
+/*Environmental Protection*/
+.csr-sub-canvas .csr-sub .article-bg-canvas {padding:  50px 0 0 0; text-align: center;}
+.csr-sub-canvas .csr-sub .article-bg-canvas .container > img {margin-bottom: 20px;}
+.csr-sub-canvas .csr-sub .article-bg-canvas h2 {font-size: 2rem; font-weight: 600; text-align: center; color: #111; margin-bottom: 30px;}
+.csr-sub-canvas .csr-sub .article-bg-canvas h2 span {color: #76C208;}
+.csr-sub-canvas .csr-sub .article-bg {padding:  50px 0;}
+.csr-sub-canvas .csr-sub .deer-bg {background: #f1f1f1 url(../images/csr/environmental-protection/wild-life-bg.jpg) center center no-repeat; background-size: cover}
+.csr-sub-canvas .csr-sub .article-bg .intro {display: flex; align-items: center;}
+.csr-sub-canvas .csr-sub .article-bg .intro img {width: 450px; border-radius: 5px; box-shadow: 3px 3px 4px rgba(0,0,0,0.2);}
+.csr-sub-canvas .csr-sub .article-bg .intro .intro-text {padding-left: 40px; text-align: left;}
+.csr-sub-canvas .csr-sub .article-bg .intro .intro-text p {color: #fff;}
+.csr-sub-canvas .csr-sub .article-bg .intro .intro-text p:last-child {margin: 0;}
 
 @media(max-width: 991px) {
-    .csr-sub-canvas .csr-sub .gen-sec h2 {padding: 0 30px;}
-    .csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/green-production/green-production-banner.png) center right -140px no-repeat; background-size: 500px;}
-    .csr-sub-canvas .csr-sub .gen-sec .hex-box {width: 100%; display: block; text-align: center;}
+    /*CSR sub General*/
+    .csr-sub-canvas .csr-sub .gen-central-banner-canvas {height: 350px;}
+    .csr-sub-canvas .csr-sub .gen-sec h2 {padding: 0 30px;}    
+    .csr-sub-canvas .csr-sub .gen-sec .hex-box {width: 100%; display: block; text-align: center; margin-bottom: 30px;}
     .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image {display: inline-block; margin-bottom: 30px;}
-    .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image img {width: 100%;}
+    .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-image img { width: 100%;}
     .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-info {padding: 0;}
     .csr-sub-canvas .csr-sub .gen-sec .hex-box .hex-info p {text-align: center;}
+    .csr-sub-canvas .csr-sub .gen-sec .hex-box:last-child {margin: 0;}
+    .csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide .intro {right: 0;bottom: 0;border-radius: 0;width: 100%;text-align: center;}
+    /* Green and Efficient Production*/
+    .csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/banners/green-production-banner.png) center right -140px no-repeat; background-size: 500px;}
     .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-head {background: #111 url(../images/csr/green-production/manufatucring-results-background.png) center right -140px no-repeat; background-size: 500px;}
-}
+    /*Employee Health & Wellness*/
+    .csr-sub-canvas .csr-sub .employee-health-banner {background: #111 url(../images/csr/banners/employee-health-banner.png) center right -100px no-repeat; background-size: 500px;}
+    /*Focus on Education*/
+    .csr-sub-canvas .csr-sub .education-banner {background: #111 url(../images/csr/banners/education-banner.png) center right -100px no-repeat; background-size: 500px;}
+    .csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro {display: block; text-align: center;}
+    .csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro .intro-text {padding: 0;}
+    .csr-sub-canvas .csr-sub .innovation-canvas .innovation .intro img {margin-bottom: 30px;}
+    /*Environmental Protection*/
+    .csr-sub-canvas .csr-sub .environmental-protection-banner {background: #111 url(../images/csr/banners/environmental-protection-banner.png) center right -100px no-repeat; background-size: 500px;}
+    .csr-sub-canvas .csr-sub .article-bg .intro {display: block; text-align: center;}
+    .csr-sub-canvas .csr-sub .article-bg .intro img {width: 100%; margin-bottom: 30px;}
+    .csr-sub-canvas .csr-sub .article-bg .intro .intro-text {padding: 0; text-align: center;}
 @media(max-width: 767px) {
-    .csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/green-production/green-production-banner.png) bottom 130px right -120px no-repeat; background-size: 200px;}
+    /*CSR sub General*/
+    .csr-sub-canvas .csr-sub .gen-sec h2 {line-height: 2rem;font-size: 1.6rem;}
+    .csr-sub-canvas .csr-sub .summary h2 {line-height: 2.4rem;font-size: 1.8rem;}
+    .csr-sub-canvas .csr-sub .gen-central-banner-canvas .gen-central-banner .intro h2 {line-height: 2rem;font-size: 1.6rem;}
+    .csr-sub-canvas .csr-sub .summary p {text-align: justify; text-align-last: center;}
     .csr-sub-canvas .csr-sub .banner .intro {width: 100%; text-align: center;}
+    .csr-sub-canvas .csr-sub .gen-sec .leaf-boxes {display: block;}
+    .csr-sub-canvas .csr-sub .gen-sec .leaf-boxes .leaf-box {width: 100%; margin: 10px 0; text-align: center;}
+    .csr-sub-canvas .csr-sub .gen-sec .leaf-boxes .leaf-box p {}
+    .csr-sub-canvas .csr-sub .csr-section-carousel-canvas .csr-section-carousel .csr-section-slide .intro {position: static; padding: 20px;}
+    /* Green and Efficient Production*/
+    .csr-sub-canvas .csr-sub .green-efficient-banner {background: #111 url(../images/csr/banners/green-production-banner.png) bottom 130px right -120px no-repeat; background-size: 200px;}
     .csr-sub-canvas .csr-sub .circular-economy-canvas .circular-economy > img {padding: 0 20px;}
     .csr-sub-canvas .csr-sub .production-process .process-info {display: block;}
     .csr-sub-canvas .csr-sub .production-process .process-info .info {width: 100%;}
@@ -8615,4 +8688,12 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-head .container {width: 100%; max-width: 100%; justify-content: center;}
     .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-body .results-graph {display: block;}
     .csr-sub-canvas .csr-sub .manufacturing-results .manufacturing-results-body .results-graph .graph {width: 100%; margin-bottom: 20px;}
-}
+    /*Employee Health & Wellness*/
+    .csr-sub-canvas .csr-sub .employee-health-banner {background: #111 url(../images/csr/banners/employee-health-banner.png) bottom 30px right -20px no-repeat; background-size: 200px;}
+    /*Focus on Education*/
+    .csr-sub-canvas .csr-sub .education-banner {background: #111 url(../images/csr/banners/education-banner.png) bottom 30px right -20px no-repeat; background-size: 200px;}
+    /*Environmental Protection*/
+    .csr-sub-canvas .csr-sub .environmental-protection-banner {background: #111 url(../images/csr/banners/environmental-protection-banner.png) bottom 30px right -20px no-repeat; background-size: 200px;}
+    .csr-sub-canvas .csr-sub .article-bg-canvas h2 {line-height: 2.4rem;font-size: 1.8rem;}
+    }
+
