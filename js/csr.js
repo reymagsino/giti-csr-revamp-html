@@ -67,13 +67,19 @@ $( document ).ready(function() {
         $('.partner-item').eq(idx+1).addClass('sides');
     });
 
-    // Border Bottom Green Swipe Up
-    $(".partners-carousel .partner-item").hover(
+    // Overview Swipe Up - SDG
+    $(".sdg-item-wrapper .sdg-item").hover(
         function () {
-            $(this).find('.border-bottom-green').addClass("swipe-up");
+            // Apply BG Color of SDG Item to Overview
+            var sdgBgColor = $(this);
+            var bg = sdgBgColor.css('background-color');
+            $(this).find('.overview').attr('style', 'background-color: ' + bg + ' !important');
+
+            // Add Class
+            $(this).find('.overview').addClass("swipe-up");
         },
         function () {
-            $(this).find('.border-bottom-green').removeClass("swipe-up");
+            $(this).find('.overview').removeClass("swipe-up");
         }
     );
 });
