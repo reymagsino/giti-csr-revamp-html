@@ -125,6 +125,10 @@
       width: 25%;
   }
 
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+      border: none;
+  }
+
   /* CSR */
   .csr-main-canvas .partners-carousel .partner-item {
     height: 13rem;
@@ -304,6 +308,11 @@
 
   .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper p, .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper h6 {
       line-height: 24px;
+      text-align: justify;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper h6 {
+    text-align: center;
   }
   
   /* CSR */
