@@ -8559,8 +8559,10 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
 .csr-sub-canvas .csr-sub .summary h2 {padding: 20px 0 0 0; font-weight: 700!important; font-size: 2.5rem!important; color: #76C208; margin: 0;}
 .csr-sub-canvas .csr-sub .summary .sub-head-tagline {display: inline-block; color: #aaa; font-size: 1.2rem;}
 .csr-sub-canvas .csr-sub .summary ul.sdg-icons {display: block; padding: 30px 0; text-align: center;}
-.csr-sub-canvas .csr-sub .summary ul.sdg-icons li {display: inline-block; margin: 7px 5px;}
-.csr-sub-canvas .csr-sub .summary ul.sdg-icons li img {}
+.csr-sub-canvas .csr-sub .summary ul.sdg-icons li {display: inline-block;margin: 7px 5px;}
+.csr-sub-canvas .csr-sub .summary ul.sdg-icons li img {
+    display: block;
+}
 .csr-sub-canvas .csr-sub .summary p {}
 .csr-sub-canvas .csr-sub .gen-central-banner-canvas {height: 450px;}
 .csr-sub-canvas .csr-sub .world-class-manufacturing {background: #f1f1f1 url(../images/csr/employee-health/world-class-production-bg.jpg) center center no-repeat; background-size: cover}
