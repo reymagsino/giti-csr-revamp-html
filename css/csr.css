@@ -439,6 +439,75 @@ button.sm.button.green:after {
         transform: translateY(0rem) !important;
     }
 
+    /* SDG GOALS COLOR */
+    .csr-main-canvas .missions-canvas .accordion-item #sdg1 .accordion-button .goal {
+        color: #e5243b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg2 .accordion-button .goal {
+        color: #dda63a;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg3 .accordion-button .goal {
+        color: #4c9f38;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg4 .accordion-button .goal {
+        color: #c5192d;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg5 .accordion-button .goal {
+        color: #ff3a21;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg6 .accordion-button .goal {
+        color: #26bde2;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg7 .accordion-button .goal {
+        color: #fcc30b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg8 .accordion-button .goal {
+        color: #a21942;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg9 .accordion-button .goal {
+        color: #fd6925;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg10 .accordion-button .goal {
+        color: #dd1367;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg11 .accordion-button .goal {
+        color: #fd9d24;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg12 .accordion-button .goal {
+        color: #bf8b2e;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg13 .accordion-button .goal {
+        color: #3f7e44;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg14 .accordion-button .goal {
+        color: #0a97d9;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg15 .accordion-button .goal {
+        color: #56c02b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg16 .accordion-button .goal {
+        color: #00689d;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg17 .accordion-button .goal {
+        color: #19486a;
+    }
+
     /* SDG ITEM BACKGROUNDS */
     .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg1 {
         background: url("../images/csr/missions/sdg-bg/goal1.jpg") #e5243b no-repeat center !important;
@@ -609,6 +678,10 @@ button.sm.button.green:after {
 /* RESPONSIVE */
 @media (max-width: 1199px) {
     /* Missions */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+        margin-right: 2rem;
+    }
+
     .csr-main-canvas .missions-canvas .banner-canvas {
     text-align: center;
     padding: 5rem 0;
@@ -769,6 +842,7 @@ button.sm.button.green:after {
 
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
         width: auto;
+        margin-right: 1rem;
     }
 
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body {

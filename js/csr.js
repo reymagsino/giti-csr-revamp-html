@@ -121,6 +121,6 @@ $( document ).ready(function() {
 
     //watch window resize
     $(window).on('resize', function() {
-        resize();
+        // resize();
     });
 });
