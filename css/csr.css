@@ -594,8 +594,12 @@ button.sm.button.green:after {
     }
 
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
-        display: flex;
+        display: none;
         justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper li span {
+        font-weight: bold;
     }
 
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal span:first-child {
@@ -683,6 +687,13 @@ button.sm.button.green:after {
     }
 
     /* Missions */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button h5 {
+        width: 54%;
+        margin-bottom: 1rem;
+        font-size: 19px;
+        word-break: break-word;
+    }
+
     .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper .read-more-wrapper {
         order: 3;
     }
