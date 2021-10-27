@@ -83,6 +83,22 @@ $( document ).ready(function() {
         }
     );
 
+    // Read more toggle
+    if ($(window).width() < 767) {
+        $(".sdg-accordion .accordion-item").find(".accordion-collapse").removeClass("show");
+        
+        // Read more toggle
+        // Hide all paragraph except the 1st
+        $(".text-wrapper p").not(":first").hide();
+
+        $(".sm").on("click", function() {
+            var txt = $(this).parent().parent().find('.text-wrapper p').not(":first").is(':visible') ? 'Read More' : 'Read Less';
+            $(this).text(txt);
+            // $(this).parent().prev('.text-wrapper p').not(":first").slideToggle(100);
+            $(this).parent().parent().find('.text-wrapper p').not(":first").slideToggle(250);
+        });
+    }
+
     // Un-collapse accordions on mobile
         //Resize window
         function resize() {
@@ -103,49 +119,8 @@ $( document ).ready(function() {
             }
         }
 
-        //watch window resize
-        $(window).on('resize', function() {
-            resize();
-        });
-    
-    // Read more toggle
-    if ($(window).width() < 767) {
-        // Read more toggle
-        // Hide all paragraph except the 1st
-        $(".text-wrapper p").not(":first").hide();
-
-        $(".sm").on("click", function() {
-            var txt = $(this).parent().parent().find('.text-wrapper p').not(":first").is(':visible') ? 'Read More' : 'Read Less';
-            $(this).text(txt);
-            // $(this).parent().prev('.text-wrapper p').not(":first").slideToggle(100);
-            $(this).parent().parent().find('.text-wrapper p').not(":first").slideToggle(250);
-        });
-    }
-
-    // orig
-    // if ($(window).width() < 767) {
-    //     // Read more toggle
-    //     paragraphCount = $(".missions-canvas .banner-canvas > p").size();
-
-    //     $(".sm").show();
-    //     $(".sl").hide();
-
-    //     if (paragraphCount > 1) {
-    //         $(".sm").show();
-    //     }
-
-    //     $( ".sl" ).click(function() {
-    //         $(".missions-canvas .banner-canvas p").not(":first").hide();
-    //         $(".sl").hide();
-    //         $(".sm").show();
-    //     });
-
-    //     $( ".sm" ).click(function() {
-    //         $(".missions-canvas .banner-canvas p").show();
-    //         $(".sm").hide();
-    //         $(".sl").show();
-    //     });
-
-    //     $(".missions-canvas .banner-canvas p").not(":first").hide();
-    // }
+    //watch window resize
+    $(window).on('resize', function() {
+        resize();
+    });
 });
