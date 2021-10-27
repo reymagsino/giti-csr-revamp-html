@@ -82,4 +82,23 @@ $( document ).ready(function() {
             $(this).find('.overview').removeClass("swipe-up");
         }
     );
+
+    // Un-collapse accordions on mobile
+        //Resize window
+        function resize() {
+            if ($(window).width() < 767) {
+                $(".sdg-accordion .accordion-item").find(".accordion-collapse").removeClass("show");
+            } else {
+                $(".sdg-accordion .accordion-item").find(".accordion-collapse").addClass("show");
+            }
+        }
+
+        //watch window resize
+        $(window).on('resize', function() {
+            resize();
+        });
+
+    // if ( window.innerWidth < 767 ) {
+    //     $(".sdg-accordion .accordion-item").find(".accordion-collapse").removeClass("show");
+    // }
 });

@@ -71,6 +71,60 @@
 }
 
 @media (max-width: 1199px) {
+  /* Missions */
+  .csr-main-canvas .missions-canvas .banner-canvas {
+      text-align: center;
+      padding: 5rem 0;
+      background: #1b1b1b;
+  }
+
+  .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+      margin: 1rem auto 2rem auto;
+      text-align: center;
+      width: 80%;
+      line-height: 24px;
+  }
+
+  .csr-main-canvas .missions-canvas .banner-canvas h2.title:after {
+      display: block;
+      content: "\00a0 ";
+      width: 5rem;
+      border-top: 3px solid;
+      margin: 1rem auto -3rem auto;
+      text-align: center;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+      flex-direction: column;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper {
+      order: 1;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .text-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-top: 1rem;
+      order: 2;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .head {
+      text-align: center;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper img {
+      width: 30%;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
+      flex-wrap: wrap;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item {
+      width: 25%;
+  }
+
   /* CSR */
   .csr-main-canvas .partners-carousel .partner-item {
     height: 13rem;
@@ -151,6 +205,105 @@
   /* General */
   .main-content-canvas {
       text-align: center;
+  }
+
+  /* Missions */
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+      flex-direction: column;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper {
+      order: 1;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .text-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-top: 1rem;
+      order: 2;
+  }
+
+  .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+      margin: 1rem auto 2rem auto;
+      text-align: center;
+      width: 80%;
+      line-height: 24px;
+  }
+
+  .csr-main-canvas .missions-canvas .banner-canvas h2.title:after {
+      display: block;
+      content: "\00a0 ";
+      width: 5rem;
+      border-top: 3px solid;
+      margin: 1rem auto -3rem auto;
+      text-align: center;
+  }
+
+  .csr-main-canvas .missions-canvas .banner-canvas {
+      text-align: center;
+      padding: 5rem 0;
+      background: #1b1b1b;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper img {
+      width: 70%;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper .head {
+      margin: auto;
+      line-height: 45px;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper img {
+      width: 60%;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper {
+      display: none;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper {
+      margin-bottom: 0;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+      padding: 5rem 0;
+      border-bottom: 3px solid #76c208;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+      width: auto;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      align-items: center;
+  }
+ 
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .img-wrapper {
+      width: 10rem;
+      margin: 1.5rem auto;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper .sub:after {
+      margin: 1rem auto -0.5rem auto;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
+      flex-wrap: wrap;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item {
+      width: 40%;
+      margin-bottom: 0.5rem;
+  }
+
+  .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper p, .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper h6 {
+      line-height: 24px;
   }
   
   /* CSR */
