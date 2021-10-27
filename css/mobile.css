@@ -212,6 +212,14 @@
   }
 
   /* Missions */
+  .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper .read-more-wrapper {
+      order: 3;
+  }
+
+  .csr-main-canvas .missions-canvas .read-more-wrapper {
+      display: block;
+  }
+
   .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
       flex-direction: column;
   }

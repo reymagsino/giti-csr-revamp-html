@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #76c208;
 }
 
+.button.green {
+    background-color: #76c208;
+    color: white;
+}
+
 /* Projects and Partnerships */
 
     /* BANNER */
@@ -282,6 +287,10 @@ h1, h2, h3, h4, h5, h6 {
         background-position-y: -3rem;
         background: url("../images/csr/missions/banner-img.png") #1b1b1b no-repeat right;
         background-size: contain;
+    }
+
+    .csr-main-canvas .missions-canvas .read-more-wrapper {
+        display: none;
     }
 
     /* CEO */
