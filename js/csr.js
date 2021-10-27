@@ -86,10 +86,10 @@ $( document ).ready(function() {
     // Read more toggle
     if ($(window).width() < 767) {
         $(".sdg-accordion .accordion-item").find(".accordion-collapse").removeClass("show");
-        
+
         // Read more toggle
         // Hide all paragraph except the 1st
-        $(".text-wrapper p").not(":first").hide();
+        $(".text-wrapper p.sub").not(":first-of-type").hide();
 
         $(".sm").on("click", function() {
             var txt = $(this).parent().parent().find('.text-wrapper p').not(":first").is(':visible') ? 'Read More' : 'Read Less';

@@ -27,8 +27,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button.green {
-    background-color: #76c208;
-    color: white;
+    background-color: #76c20800;
+    color: #76c208;
+    font-weight: 500;
+    min-width: 0rem;
+}
+
+.button.green:hover {
+    background-color: #76c20800 !important;
+    color: #76c208 !important;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+button.sm.button.green:after {
+    display: block;
+    content: "\00a0 ";
+    width: 7rem;
+    border-top: 3px solid;
+    margin: 0rem auto -3rem auto;
+    text-align: center;
 }
 
 /* Projects and Partnerships */
