@@ -2048,10 +2048,15 @@ button:focus {outline:0;}
 .jg-main-canvas .jg-main .jg-form-canvas .tab-content .tab-pane .jg-form .form-main textarea {width: 100%; padding: 20px 20px; margin-bottom: 5px; border: 1px solid #999999;}
 .jg-main-canvas .jg-main .jg-form-canvas .tab-content .tab-pane .jg-form .form-main .form-commands {}
 .jg-main-canvas .jg-main .jg-form-canvas .tab-content .tab-pane .jg-form .form-main .form-commands button {}
+.jg-main-canvas .jg-main .jg-form-canvas .tab-content .tab-pane .jg-form .refresh-captcha {border: none; text-transform: uppercase; font-size: 0.7rem; font-weight: 500; background: no-repeat;}
 .jg-main-canvas .jg-main .jg-form-canvas .jg-contact {padding: 50px 80px; background: url(../images/backgrounds/jg-form-footer-bg.jpg) center center no-repeat; background-size: cover;}
 .jg-main-canvas .jg-main .jg-form-canvas .jg-contact h2 {color: #FCCF00;}
 .jg-main-canvas .jg-main .jg-form-canvas .jg-contact p {font-size: 1.2rem; color: #FFFFFF;}
 .jg-main-canvas .jg-main .jg-form-canvas .jg-contact a {}
+body .general-banner-canvas .general-banner .general-banner-intro h1 {margin-bottom: 1rem; font-size: 3rem;}
+@media (max-width: 480px) {
+    body .general-banner-canvas .general-banner .general-banner-intro h1 {margin-bottom: 1rem; font-size: 2.4rem;}
+}
 
 /*Join Giti - Recruitment Process*/
 .rp-canvas {padding: 20px 70px; margin-bottom: 30px;}
