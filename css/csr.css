@@ -303,9 +303,13 @@ button.sm.button.green:after {
         color: white;
         padding: 5rem 0;
         background-position-y: -3rem;
-        background: url("../images/csr/missions/banner-img.png") #1b1b1b no-repeat right;
-        background-size: contain;
+        background:  #111111  url("../images/csr/banners/mission-commitment-banner.png") center right -130px no-repeat; background-size:contain;
     }
+
+    .csr-main-canvas .missions-canvas .banner-canvas .intro {}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro h1 {font-family: "Rajdhani", Georgia; font-weight: bold; text-transform: uppercase; color: #fff; line-height: 2.5rem;}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro h1 span {color: #76C208;}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro img {display: inline-block;}
 
     .csr-main-canvas .missions-canvas .read-more-wrapper {
         display: none;
@@ -417,6 +421,10 @@ button.sm.button.green:after {
         transform: translateY(18rem);
         transition: 0.5s;
         color: white;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview a.overview-link {
+        position: absolute; z-index: 2; width: 100%; height: 100%;
     }
 
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item button.info {
@@ -692,9 +700,9 @@ button.sm.button.green:after {
     }
 
     .csr-main-canvas .missions-canvas .banner-canvas {
-    text-align: center;
-    padding: 5rem 0;
-    background: #1b1b1b;
+        text-align: center;
+        padding: 5rem 0;
+        background: #111 url(../images/csr/banners/mission-commitment-banner.png) bottom 10px right -120px no-repeat;background-size: 280px;
     }
 
     .csr-main-canvas .missions-canvas .banner-canvas p.sub {
@@ -727,6 +735,9 @@ button.sm.button.green:after {
         margin-top: 1rem;
         order: 2;
     }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview h6 {margin-bottom: 10px;}
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview p {font-size: 0.8rem;}
 
     .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .head {
         text-align: center;
@@ -767,6 +778,9 @@ button.sm.button.green:after {
     .main-content-canvas {
         text-align: center;
     }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item:before {height: 0;}
+
 
     /* Missions */
     .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button h5 {
@@ -818,7 +832,7 @@ button.sm.button.green:after {
     .csr-main-canvas .missions-canvas .banner-canvas {
         text-align: center;
         padding: 5rem 0;
-        background: #1b1b1b;
+        background: #111 url(../images/csr/banners/mission-commitment-banner.png) bottom 30px right -100px no-repeat; background-size: 200px;
     }
 
     .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper img {
