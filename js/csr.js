@@ -85,6 +85,10 @@ $( document ).ready(function() {
 
     // Read more toggle
     if ($(window).width() < 767) {
+        // Set aria-expanded attribute of accordions to false on mobile
+        $(".accordion-button").attr("aria-expanded","false");
+        $(".accordion-button").addClass("collapsed");
+
         $(".sdg-accordion .accordion-item").find(".accordion-collapse").removeClass("show");
 
         // Read more toggle
