@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101.697" height="73.887" viewBox="0 0 101.697 73.887">
+  <g id="Group_35" data-name="Group 35" transform="translate(-57.935 -677.167)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="7.398" height="21.75" transform="translate(58.935 689.833)" fill="none" stroke="#76c208" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="4.283" height="17" transform="translate(66.334 692)" fill="none" stroke="#76c208" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="7.398" height="21.75" transform="translate(151.233 694.067)" fill="none" stroke="#76c208" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="4.283" height="17" transform="translate(146.951 696.234)" fill="none" stroke="#76c208" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_61" data-name="Path 61" d="M95.42,711.57v.01h-.16A.859.859,0,0,0,95.42,711.57Z" fill="#76c208"/>
+    <path id="Path_62" data-name="Path 62" d="M95.42,698.27v1.01a2.83,2.83,0,1,1,0,5.66v.99a2.824,2.824,0,0,1,0,5.64.859.859,0,0,1-.16.01H79.58L73,707.75l-2.384-.5v-13.5l2.3-.17,7.58-7.41H95.42a2.83,2.83,0,0,1,0,5.66v.77a2.835,2.835,0,0,1,0,5.67Z" fill="none" stroke="#76c208" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_63" data-name="Path 63" d="M146.951,698.875V711.58h-.831l-7-5.66-15,2.83-15.74-7.5h0a3.269,3.269,0,0,1-2.54-3.21,3.224,3.224,0,0,1,5.23-2.52l10.68,3.76,1.87-3.05,15.88-2.16Z" fill="none" stroke="#76c208" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_64" data-name="Path 64" d="M121.75,699.28l4.813,2.032,9.563-1.375" fill="none" stroke="#76c208" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_65" data-name="Path 65" d="M107.914,730.852a20.2,20.2,0,1,1-40.4,0c0-11.158,15.823-20.2,20.2-20.2C93.25,710.57,107.914,719.694,107.914,730.852Z" fill="#76c208"/>
+    <text id="_" data-name="$" transform="translate(87.713 739.182)" fill="#fff" font-size="26.825" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="-6.881" y="0">$</tspan></text>
+    <path id="Path_66" data-name="Path 66" d="M84.083,686.17l-3.416-9s9.75,4.584,14.25,2c0,.083-2.917,7-2.917,7Z" fill="#76c208"/>
+  </g>
+</svg>

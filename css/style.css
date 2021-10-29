@@ -910,6 +910,24 @@ button:focus {outline:0;}
 .csr-hero-canvas .csr-hero h1 {margin: 2rem 0 1.5rem 0; font-size: 4rem; line-height: 3.6rem; color: #FFFFFF; text-transform: uppercase;}
 .csr-hero-canvas .csr-hero p {color: #FFFFFF; font-size: 1.2rem; font-weight: 300; width: 50%;}
 
+/*CSR Mission*/
+.csr-mission-canvas {padding: 60px 0; background: url(../images/csr/main/mission-commitment-section-bg.png) center bottom no-repeat; background-size: cover;}
+.csr-mission-canvas .mission-canvas {}
+.csr-mission-canvas .mission-canvas .mission {display: flex; align-items: center;}
+.csr-mission-canvas .mission-canvas .mission img {margin-right: 50px; width: 407px; height: 100%; max-width: 100%;}
+.csr-mission-canvas .mission-canvas .mission .intro {}
+.csr-mission-canvas .mission-canvas .mission .intro h1 {color: #0096D6;}
+.csr-mission-canvas .mission-canvas .mission .intro p {}
+.csr-mission-canvas .mission-canvas .mission .intro .command-links {}
+.csr-mission-canvas .mission-canvas .mission .intro .command-links a.blue {background-color: #0096D6; color: #FFFFFF; margin-bottom: 10px;}
+.csr-mission-canvas .mission-canvas .mission .intro .command-links a.blue:hover {}
+.csr-mission-canvas .mission-canvas .mission .intro .command-links a.bordered {border-color: #0096D6; color: #0096D6;}
+.csr-mission-canvas .mission-canvas .mission .intro .command-links a.bordered:hover {}
+@media (max-width: 991px) {
+    .csr-mission-canvas .mission-canvas .mission {display: block; text-align: center;}
+    .csr-mission-canvas .mission-canvas .mission img {margin:  0 0 30px 0;}
+}
+
 /*CSR Green*/
 .csr-green-canvas {position: relative; height: 460px; border-top: 5px solid #000000;}
 .csr-green-canvas .overlay {position: absolute; top: 0; left: 0; z-index: 10; background: rgb(0,0,0); background: linear-gradient(270deg, rgba(0,0,0,0.7399334733893557) 0%, rgba(0,0,0,0.5466561624649859) 100%);}
@@ -8546,6 +8564,986 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
 }
 
 
+/* General */
+.csr-main-canvas *:focus {
+    outline: 0 !important;
+}
+
+.csr-main-canvas .page-sec {
+    margin-bottom: 3rem;
+}
+
+.csr-main-canvas section.main-content-canvas {
+    letter-spacing: initial;
+}
+
+.csr-main-canvas h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+.csr-main-canvas h1, h2, h3, h4, h5, h6 {
+    font-family: 'Heebo', sans-serif;
+}
+
+.csr-main-canvas .head span {
+    color: #76c208;
+}
+
+.csr-main-canvas .button.green {
+    background-color: #76c20800;
+    color: #76c208;
+    font-weight: 500;
+    min-width: 0rem;
+}
+
+.csr-main-canvas .button.green:hover {
+    background-color: #76c20800 !important;
+    color: #76c208 !important;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.csr-main-canvas button.sm.button.green:after {
+    display: block;
+    content: "\00a0 ";
+    width: 7rem;
+    border-top: 3px solid;
+    margin: 0rem auto -3rem auto;
+    text-align: center;
+}
+
+/* Projects and Partnerships */
+
+    /* BANNER */
+    .csr-main-canvas .banner-canvas {
+        text-align: center;
+        color: white;
+        padding: 7rem 0;
+        background: url(../images/csr/projects-partnerships/banner-earth.svg) #1b1b1b no-repeat center;
+        background-size: 45rem;
+        background-position-y: -3rem;
+    }
+
+    .csr-main-canvas .banner-canvas p.sub {
+        margin: 1rem auto 5rem auto;
+        width: 55%;
+    }
+
+    .csr-main-canvas .banner-canvas .title {
+        font-family: 'Rajdhani', sans-serif;
+        color: #76c208;
+    }
+
+    .csr-main-canvas .partners-logo-carousel .owl-item img {
+        height: 45px;
+    }
+
+    /* CAROUSEL BIG */
+    .csr-main-canvas .carousel-wrapper {
+        margin-top: 5rem;
+        text-align: center;
+        height: 36rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.center {
+        background: #76c208;
+        transition: .5s;
+        height: 17rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.sides {
+        background: #324c0dad;
+        margin-top: 5rem;
+        transition: .5s;
+    }
+
+    .csr-main-canvas .partners-carousel .owl-nav button {
+        background: white !important;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 5rem !important;
+        box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 30%);
+        -webkit-box-shadow: 0px 0px 5px 3px rgb(0 0 0 / 30%);
+        -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.3);
+        transition: 0.5s;
+    }
+    .csr-main-canvas .partners-carousel .owl-nav button.owl-prev {
+        transform: rotate(180deg);
+    }
+
+    .csr-main-canvas .partners-carousel .owl-nav button:hover {
+        filter: brightness(1.5);
+    }
+
+    .csr-main-canvas .partners-carousel .owl-nav button img {
+        filter: invert(41%) sepia(15%) saturate(0%) hue-rotate(146deg) brightness(98%) contrast(85%);
+        width: 25%;
+    }
+
+    .csr-main-canvas .partners-carousel .owl-nav {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 6rem;
+        z-index: 20;
+    }
+
+    .csr-main-canvas .carousel-wrapper .partners-carousel {
+        margin: 5rem 0;
+        position: relative;
+        height: 1rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.center:hover .content-wrapper {
+        padding: 1rem 0;
+        top: 30%;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item:hover {
+        cursor: pointer;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item:hover .content-wrapper {
+        top: 30%;
+        background: white;
+        padding: 1rem 0;
+        transition: .5s;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item {
+        overflow: hidden;
+        position: relative;
+        background: #dddddd;
+        height: 17rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.center .content-wrapper {
+        top: 35%;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item .content-wrapper {
+        position: absolute;
+        top: 30%;
+        z-index: 2;
+        width: 100%;
+        transition: .5s;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item .content-wrapper img {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item .overlay {
+        background-color: rgb(255 255 255 / 60%);
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item:hover .overlay {
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item .border-bottom-green {
+        background-color: rgb(118 194 8);
+        display: block;
+        height: .5rem;
+        bottom: -1rem;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    /* UNGC */
+    .csr-main-canvas .ungc-wrapper p {
+        line-height: 1.5rem;
+    }
+
+    .csr-main-canvas .ungc-wrapper .head span:after {
+        display: block;
+        content: "\00a0 ";
+        width: 10rem;
+        border-top: 3px solid;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+    }
+
+    /* PRINCIPLES */
+    .csr-main-canvas .principles-wrapper {
+        margin-bottom: 1rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper h5 {
+        line-height: 5rem;
+        margin: 0;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper {
+        margin-bottom: 1.5rem;
+        display: flex;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .img-wrapper {
+        border: 3px solid #76c208;
+        height: 5.5rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .img-wrapper img {
+        height: 5rem;
+        width: 5rem;
+        padding: 1rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper {
+        margin-left: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper p {
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: initial;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper ul li {
+        margin-bottom: 1rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper ul li span {
+        font-weight: bold;
+        letter-spacing: initial;
+    }
+
+    /* DETAILS */
+    .csr-main-canvas .details-wrapper {
+        line-height: 1.5rem;
+    }
+
+    .csr-main-canvas .details-wrapper span {
+        display: block;
+    }
+
+    .csr-main-canvas .details-wrapper span a {
+        font-weight: bold;
+    }
+
+/* Missions */
+
+    /* BANNER */
+    .csr-main-canvas .missions-canvas .banner-canvas {
+        text-align: left;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+        margin: 2rem 0 0 0;
+        text-align: justify;
+        width: 45%;
+        line-height: 24px;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas h2.title:after {
+        display: block;
+        content: "\00a0 ";
+        width: 5rem;
+        border-top: 3px solid;
+        margin-top: 1rem;
+        margin-bottom: -3rem;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas {
+        text-align: left;
+        color: white;
+        padding: 5rem 0;
+        background-position-y: -3rem;
+        background:  #111111  url("../images/csr/banners/mission-commitment-banner.png") center right -130px no-repeat; background-size:contain;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas .intro {}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro h1 {font-family: "Rajdhani", Georgia; font-weight: bold; text-transform: uppercase; color: #fff; line-height: 2.5rem;}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro h1 span {color: #76C208;}
+    .csr-main-canvas .missions-canvas .banner-canvas .intro img {display: inline-block;}
+
+    .csr-main-canvas .missions-canvas .read-more-wrapper {
+        display: none;
+    }
+
+    /* CEO */
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+        position: relative;
+        background: url("../images/csr/missions/ceo-bg.jpg") no-repeat center center;
+        /* background-size: cover; */
+        background-position-y: -15rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .text-wrapper {
+        text-align: justify;
+        width: 60%;
+        line-height: 24px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper {
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper h6 {
+        margin: 2rem 0 0.5rem 0;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .white-overlay {
+        position: absolute;
+        top: 0;
+        background: rgb(255 255 255 / 80%);
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+        padding: 5rem 0;
+        border-bottom: 3px solid #76c208;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper {
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper .head {
+        margin-bottom: 0;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper img {
+        padding: 3rem 0;
+        width: 25%;
+    }
+
+    /* SDG */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper h5 {
+        font-weight: bold;
+    }
+
+    /* SDG ITEMS */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item {
+        position: relative;
+        background: #f4f4f4;
+        width: 15.5%;
+        height: 18rem;
+        margin-bottom: 1.5%;
+        background-size: cover !important;
+        overflow: hidden;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item:hover {
+        cursor: pointer;
+    }
+    
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item .sdg-item-content-wrapper {
+        position: absolute;
+        display: block;
+        bottom: 1rem;
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper .sdg-item .sdg-item-content-wrapper img {
+        padding: 0;
+        width: 80%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .black-overlay {
+        background: #00000050;
+        width: 100%;
+        height: inherit;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview {
+        position: absolute;
+        background: #f4f4f4;
+        height: inherit;
+        padding: 1rem;
+        text-align: left;
+        z-index: 1;
+        transform: translateY(18rem);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview a.overview-link {
+        position: absolute; z-index: 2; width: 100%; height: 100%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item button.info {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        border: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3.5rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview p:first-child {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .swipe-up {
+        transform: translateY(0rem) !important;
+    }
+
+    /* SDG GOALS COLOR */
+
+    .csr-main-canvas .sdg-accordion {
+        width: 100%;
+    }
+    .csr-main-canvas .missions-canvas .accordion-item .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+    .accordion-button:not(.collapsed) {
+        color: #0c63e4;
+        background-color: #e7f1ff;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-left: auto;
+        content: "";
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: 1.25rem;
+        transition: transform .2s ease-in-out;
+    }
+        .accordion-button:not(.collapsed)::after {
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+        transform: rotate(-180deg);
+    }
+    .csr-main-canvas .missions-canvas .accordion-item #sdg1 .accordion-button .goal {
+        color: #e5243b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg2 .accordion-button .goal {
+        color: #dda63a;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg3 .accordion-button .goal {
+        color: #4c9f38;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg4 .accordion-button .goal {
+        color: #c5192d;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg5 .accordion-button .goal {
+        color: #ff3a21;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg6 .accordion-button .goal {
+        color: #26bde2;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg7 .accordion-button .goal {
+        color: #fcc30b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg8 .accordion-button .goal {
+        color: #a21942;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg9 .accordion-button .goal {
+        color: #fd6925;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg10 .accordion-button .goal {
+        color: #dd1367;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg11 .accordion-button .goal {
+        color: #fd9d24;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg12 .accordion-button .goal {
+        color: #bf8b2e;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg13 .accordion-button .goal {
+        color: #3f7e44;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg14 .accordion-button .goal {
+        color: #0a97d9;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg15 .accordion-button .goal {
+        color: #56c02b;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg16 .accordion-button .goal {
+        color: #00689d;
+    }
+
+    .csr-main-canvas .missions-canvas .accordion-item #sdg17 .accordion-button .goal {
+        color: #19486a;
+    }
+
+    /* SDG ITEM BACKGROUNDS */
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg1 {
+        background: url("../images/csr/missions/sdg-bg/goal1.jpg") #e5243b no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg2 {
+        background: url("../images/csr/missions/sdg-bg/goal2.jpg") #dda63a no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg3 {
+        background: url("../images/csr/missions/sdg-bg/goal3.jpg") #4c9f38 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg4 {
+        background: url("../images/csr/missions/sdg-bg/goal4.jpg") #c5192d no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg5 {
+        background: url("../images/csr/missions/sdg-bg/goal5.jpg") #ff3a21 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg6 {
+        background: url("../images/csr/missions/sdg-bg/goal6.jpg") #26bde2 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg7 {
+        background: url("../images/csr/missions/sdg-bg/goal7.jpg") #fcc30b no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg8 {
+        background: url("../images/csr/missions/sdg-bg/goal8.jpg") #a21942 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg9 {
+        background: url("../images/csr/missions/sdg-bg/goal9.jpg") #fd6925 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg10 {
+        background: url("../images/csr/missions/sdg-bg/goal10.jpg") #dd1367 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg11 {
+        background: url("../images/csr/missions/sdg-bg/goal11.jpg") #fd9d24 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg12 {
+        background: url("../images/csr/missions/sdg-bg/goal12.jpg") #bf8b2e no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg13 {
+        background: url("../images/csr/missions/sdg-bg/goal13.jpg") #3f7e44 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg14 {
+        background: url("../images/csr/missions/sdg-bg/goal14.jpg") #0a97d9 no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg15 {
+        background: url("../images/csr/missions/sdg-bg/goal15.jpg") #56c02b no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg16 {
+        background: url("../images/csr/missions/sdg-bg/goal16.jpg") #00689d no-repeat center !important;
+    }
+
+    .csr-main-canvas .missions-canvas .sdg-item-wrapper .sdg-bg17 {
+        background: url("../images/csr/missions/sdg-bg/goal17.jpg") #19486a no-repeat center !important;
+    }
+
+    /* ACCORDION */
+    /* Increase bookmark space above */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item:before {
+        content: "";
+        display: block;
+        height: 4rem;
+        background: white;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button, .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+        background: #f4f4f4;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        border-top: 5px solid #fccf00;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+        margin-bottom: 1rem;
+        border: none;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button h5 {
+        width: 90%;
+        margin-bottom: -8.5px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal span.num {
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+        text-align: right;
+        width: 11%;
+        margin-right: 1rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button:not(.collapsed) {
+        color: inherit;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item #sdg-1 .goal {
+        color: #e5243b;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body {
+        display: flex;
+        padding:  20px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .img-wrapper {
+        width: 9%;
+        margin-right: 1.6rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper {
+        width: 90%;
+        line-height: 24px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .img-wrapper img {
+        width: 100%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper .sub:after {
+        display: block;
+        content: "\00a0 ";
+        width: 5rem;
+        border-top: 1px solid;
+        margin-top: 1rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item {
+        display: flex;
+        align-items: baseline;
+        margin-right: 10%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item span {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item h4.num {
+        border-bottom: 4px solid black;
+        padding: 0 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
+        display: none;
+        justify-content: space-between;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper li span {
+        font-weight: bold;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal span:first-child {
+        padding-right: 0.5rem;
+    }
+
+/* RESPONSIVE */
+@media (max-width: 1199px) {
+    /* Missions */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+        margin-right: 2rem;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas {
+        text-align: center;
+        padding: 5rem 0;
+        background: #111 url(../images/csr/banners/mission-commitment-banner.png) bottom 10px right -120px no-repeat;background-size: 280px;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+        margin: 1rem auto 2rem auto;
+        text-align: center;
+        width: 80%;
+        line-height: 24px;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas h2.title:after {
+        display: block;
+        content: "\00a0 ";
+        width: 5rem;
+        border-top: 3px solid;
+        margin: 1rem auto -3rem auto;
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+        flex-direction: column;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper {
+        order: 1;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .text-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+        order: 2;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview h6 {margin-bottom: 10px; color: #fff;}
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item .overview p {font-size: 0.8rem;}
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .head {
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper img {
+        width: 30%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
+        flex-wrap: wrap;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item {
+        width: 25%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item {
+        border: none;
+    }
+
+    /* CSR */
+    .csr-main-canvas .partners-carousel .partner-item {
+    height: 13rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.center {
+        height: 15rem;
+    }
+
+    .csr-main-canvas .carousel-wrapper {
+        height: 33rem;
+    }
+}
+
+@media (max-width: 767px) {
+    /* General */
+    .main-content-canvas {
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item:before {height: 0;}
+
+
+    /* Missions */
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button h5 {
+        width: 54%;
+        margin-bottom: 1rem;
+        font-size: 19px;
+        word-break: break-word;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper .read-more-wrapper {
+        order: 3;
+    }
+
+    .csr-main-canvas .missions-canvas .read-more-wrapper {
+        display: block;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .content-wrapper {
+        flex-direction: column;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper {
+        order: 1;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .text-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+        order: 2;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas p.sub {
+        margin: 1rem auto 2rem auto;
+        text-align: center;
+        width: 80%;
+        line-height: 24px;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas h2.title:after {
+        display: block;
+        content: "\00a0 ";
+        width: 5rem;
+        border-top: 3px solid;
+        margin: 1rem auto -3rem auto;
+        text-align: center;
+    }
+
+    .csr-main-canvas .missions-canvas .banner-canvas {
+        text-align: center;
+        padding: 5rem 0;
+        background: #111 url(../images/csr/banners/mission-commitment-banner.png) bottom 30px right -100px no-repeat; background-size: 200px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper .img-wrapper img {
+        width: 70%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper .head {
+        margin: auto;
+        line-height: 45px;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper img {
+        width: 60%;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-item-wrapper {
+        display: none;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-wrapper {
+        margin-bottom: 0;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .ceo-wrapper {
+        padding: 5rem 0;
+        border-bottom: 3px solid #76c208;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-button .goal {
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .img-wrapper {
+        width: 10rem;
+        margin: 1.5rem auto;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper .sub:after {
+        margin: 1rem auto -0.5rem auto;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data {
+        flex-wrap: wrap;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .text-wrapper .data .data-item {
+        width: 40%;
+        margin-bottom: 0.5rem;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper p, .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper h6 {
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .csr-main-canvas .missions-canvas .main-content-canvas .sdg-content-wrapper .sdg-accordion .accordion-item .accordion-body .text-wrapper h6 {
+    text-align: center;
+    }
+
+    /* CSR */
+    .csr-main-canvas .carousel-wrapper {
+        height: 37rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper {
+    display: block;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .img-wrapper {
+    width: 5.5rem;
+    margin: auto auto 2rem;
+    }
+
+    .csr-main-canvas .banner-canvas p.sub {
+    width: 100%;
+    }
+
+    .csr-main-canvas .ungc-wrapper .head span:after {
+    margin: 1rem auto -2rem;
+    }
+
+    .csr-main-canvas .principles-wrapper .prin-item-wrapper .text-wrapper {
+    margin: auto auto 3rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item {
+    height: 17rem;
+    }
+
+    .csr-main-canvas .partners-carousel .partner-item.center {
+        height: 17rem;
+    }
+}
 
 /*CSR SUB*/
 .csr-sub-canvas {}
@@ -8703,5 +9701,4 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     /*Environmental Protection*/
     .csr-sub-canvas .csr-sub .environmental-protection-banner {background: #111 url(../images/csr/banners/environmental-protection-banner.png) bottom 30px right -20px no-repeat; background-size: 200px;}
     .csr-sub-canvas .csr-sub .article-bg-canvas h2 {line-height: 2.4rem;font-size: 1.8rem;}
-    }
-
+}

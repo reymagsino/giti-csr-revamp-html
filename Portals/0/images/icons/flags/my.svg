@@ -1,0 +1,14 @@
+<svg id="my" xmlns="http://www.w3.org/2000/svg" width="33" height="22" viewBox="0 0 33 22">
+  <rect id="Rectangle_53" data-name="Rectangle 53" width="33" height="22" fill="#fff"/>
+  <g id="Group_108" data-name="Group 108" transform="translate(0 2.723)">
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="33" height="2.723" fill="#d80027"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="33" height="2.723" transform="translate(0 5.518)" fill="#d80027"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="33" height="2.723" transform="translate(0 11.035)" fill="#d80027"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="33" height="2.723" transform="translate(0 16.553)" fill="#d80027"/>
+  </g>
+  <rect id="Rectangle_58" data-name="Rectangle 58" width="16.34" height="11.732" fill="#0052b4"/>
+  <g id="Group_109" data-name="Group 109" transform="translate(4.643 2.55)">
+    <path id="Path_74" data-name="Path 74" d="M77.1,131.3a2.694,2.694,0,1,1,1.281-5.064,3.315,3.315,0,1,0,0,4.74,2.682,2.682,0,0,1-1.281.324Z" transform="translate(-72.746 -125.286)" fill="#ffda44"/>
+    <path id="Path_75" data-name="Path 75" d="M124.309,147.545l.478,1,1.08-.25-.484,1,.869.689-1.081.244v1.109l-.865-.694-.865.694v-1.109l-1.081-.244.869-.689-.484-1,1.08.25Z" transform="translate(-119.199 -146.124)" fill="#ffda44"/>
+  </g>
+</svg>

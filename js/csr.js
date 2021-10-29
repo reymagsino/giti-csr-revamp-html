@@ -30,7 +30,7 @@ $( document ).ready(function() {
         margin:50,
         dots: false,
         nav:true,
-        navText : ['<img src="images/icons/general/left-arrow-icon.svg">','<img src="images/icons/general/right-arrow-icon.svg">'],
+        navText : ['<img src="/Portals/_default/skins/giticorptheme/images/icons/general/white-right-arrow.svg">','<img src="/Portals/_default/skins/giticorptheme/images/icons/general/white-right-arrow.svg">'],
         mouseDrag:true,
         autoplay:true,
         autoplayTimeout:3000,
