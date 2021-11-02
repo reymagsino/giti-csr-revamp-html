@@ -8577,14 +8577,14 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     letter-spacing: initial;
 }
 
-.csr-main-canvas h1.head, h2.head, h3.head, h4.head, h5.head, h6.head {
+.csr-main-canvas h1.head, .csr-main-canvas h2.head, .csr-main-canvas h3.head, .csr-main-canvas h4.head, .csr-main-canvas h5.head, .csr-main-canvas h6.head {
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     margin-bottom: 2rem;
     line-height: 2.5rem;
 }
 
-.csr-main-canvas h1, h2, h3, h4, h5, h6 {
+.csr-main-canvas h1, .csr-main-canvas h2, .csr-main-canvas h3, .csr-main-canvas h4, .csr-main-canvas h5, .csr-main-canvas h6 {
     font-family: 'Heebo', sans-serif;
 }
 
@@ -9545,6 +9545,8 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     }
 }
 
+
+
 /*CSR SUB*/
 .csr-sub-canvas {}
 .csr-sub-canvas .csr-sub {}
@@ -9673,6 +9675,7 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     .csr-sub-canvas .csr-sub .article-bg .intro {display: block; text-align: center;}
     .csr-sub-canvas .csr-sub .article-bg .intro img {width: 100%; margin-bottom: 30px;}
     .csr-sub-canvas .csr-sub .article-bg .intro .intro-text {padding: 0; text-align: center;}
+}
 @media(max-width: 767px) {
     /*CSR sub General*/
     .csr-sub-canvas .csr-sub .gen-sec h2 {line-height: 2rem;font-size: 1.6rem;}
@@ -9701,4 +9704,49 @@ html[lang="zh-CN"] h1, h2, h3, h4, h5, h6 {line-height: 1.2em;}
     /*Environmental Protection*/
     .csr-sub-canvas .csr-sub .environmental-protection-banner {background: #111 url(../images/csr/banners/environmental-protection-banner.png) bottom 30px right -20px no-repeat; background-size: 200px;}
     .csr-sub-canvas .csr-sub .article-bg-canvas h2 {line-height: 2.4rem;font-size: 1.8rem;}
+}
+
+
+
+/*FLIP CARDS*/
+
+.csr-main-canvas .p-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.csr-main-canvas .p-cards .p-card {
+  width: 25%;
+  position: relative;
+  height: 25em;
+  perspective: 150em;
+}
+.csr-main-canvas .p-cards .card-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25em;
+  backface-visibility: hidden;
+  transition: all 0.6s ease;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+.csr-main-canvas .p-cards .card-side-front {
+  background-color: #FFF;
+}
+.csr-main-canvas .p-cards .card-side-back {
+  color: #FFF;
+  transform: rotateY(180deg);
+}
+
+.csr-main-canvas .p-cards .p-card:hover .card-side-front {
+  transform: rotateY(-180deg);
+}
+.csr-main-canvas .p-cards .p-card:hover .card-side-back {
+  transform: rotate(0);
+}
+.csr-main-canvas .p-cards .card-description {
+  text-transform: uppercase;
+  font-size: 5em;
+  padding: 1em 0;
 }
